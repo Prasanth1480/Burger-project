@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color:#191919;
+    
+}
+.header{
+    position: fixed;
+   top: 0;
+    background-color:darkgoldenrod;
+    color: darkgoldenrod;;
+    padding: 5px;
+}
+.header img{
+    max-width: 15%;
+    position:sticky;
+    left: 4%;
+    opacity: 80%;
+
+}
+.header-right a:hover{
+    transition: 1s;
+    color: white;
+    
+    
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    top:5%;
+    padding: 14px 15px;
+    text-align: center;
+    
+}
+.header-right{
+    float: right;
+    position: sticky;
+    top:5%;
+    right: 10%;
+    text-align: center;
+}

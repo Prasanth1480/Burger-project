@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log in</title>
+        <style>
+            *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color:#191919;
+    
+}
+.header{
+    position: fixed;
+   top: 0;
+    background-color:darkgoldenrod;
+    color: darkgoldenrod;;
+    padding: 5px;
+}
+.header img{
+    max-width: 15%;
+    position:sticky;
+    left: 4%;
+    opacity: 80%;
+
+}
+section
+{
+    position: absolute;
+    top:20%;
+    left:10%; 
+    /*transform: translate(-50%,-50%);*/
+    height: 550px;
+    width: 450px;
+    box-shadow:  0px 3px 2px black;
+    display: flex;
+   
+   color: white;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+   
+}
+.content{
+    text-align: center;
+    padding: 20px;
+    
+   
+    
+}
+.content p{
+    position: absolute;
+    width: auto;
+    top: 25%;
+    text-align: center;
+    word-spacing: 2px;
+    padding: 20px;
+    
+    opacity: 50%;
+}
+.content h1{
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+.bt a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.col-75 {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+.col-75 input{
+    padding: 15px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+.col-76 {
+  position: absolute;
+  top: 80%;
+  left: 7%;
+}
+.col-76 h5{
+    font-size: 15px;
+    opacity: 100%;
+    font-weight: lighter;
+    
+}
+.bt button{
+    width: 100px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    cursor: pointer;
+}
+
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+
+}
+.header-right a:hover{
+    transition: 1s;
+    color: white;
+    
+    
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    top:5%;
+    padding: 14px 15px;
+    text-align: center;
+    
+}
+.header-right{
+    float: right;
+    position: sticky;
+    top:5%;
+    right: 10%;
+    text-align: center;
+}
+.vid{
+    opacity: 50%;
+    position: fixed;
+    top: 12%;
+    
+    
+ 
+ 
+}
+#myVideo {
+ bottom: 0;
+    max-width:100%;
+ 
+}
+.col-77 {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+.col-77 input{
+    padding: 15px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+}
+.col-78 {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+.col-78 input{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+        </style>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myInput");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="blogo1.jpeg">
+        
+       <div class="header-right">
+        
+        <a  href="Mini.html">HOME</a>
+       </div>
+        </div>
+       <div class="vid">
+        <video autoplay muted  id="myVideo">
+            <source src="bdvid1.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+       <!--<div class="img">
+            <img src="background.jpeg">
+        </div>-->
+        
+        <div class="content">
+            
+        <section class="skewbox">
+            
+        <h1>Log in </h1> 
+        
+          <p>Log in with your  Account to get your order
+             history and other settings on all your devices</p>
+             <form >
+    <div class="col-75">
+        <input type="text" id="mail" name="mail" placeholder="Enter your mail.." required="True">
+    </div>
+    <div class="col-76">
+        <h5>Don't have account?<a href="signin.html" style="text-decoration:none ;">  Sign in</a></h5>
+    </div>
+     <div class="col-77">
+        <input type="password" id="myInput"  placeholder="Enter Password" required="true"><br>
+        
+    </div>
+    <div class="col-78">
+        <input type="checkbox" onclick="myFunction()" style="left: -40px;">Show Password
+    </div>
+    
+    <div class="bt">
+        
+        <button type="submit" class="button button1"   >Login &#187;</button>
+    
+    </div>
+
+    
+
+</form>        
+
+        
+
+    </body>
+</html>

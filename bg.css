@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+section
+{
+    position: absolute;
+    top:10%;
+    left:30%; 
+    /*transform: translate(-50%,-50%);*/
+    height: 450px;
+    width: 450px;
+    box-shadow:  0px 3px 2px black;
+    display: flex;
+   background-color: darkgoldenrod;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.content{
+    text-align: center;
+    padding: 20px;
+    
+   
+    
+}
+.content p{
+    position: absolute;
+    width: auto;
+    top: 25%;
+    text-align: center;
+    word-spacing: 2px;
+    padding: 20px;
+    
+    opacity: 50%;
+}
+.content h1{
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+.bt a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.col-75 {
+  position: absolute;
+  top: 53%;
+  left: 7%;
+}
+.col-75 input{
+    padding: 15px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.col-76 {
+  position: absolute;
+  top: 63%;
+  left: 7%;
+}
+.col-76 h5{
+    font-size: 15px;
+    opacity: 100%;
+    font-weight: lighter;
+    
+}
+.bt button{
+    width: 100px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    cursor: pointer;
+}
+
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+
+}
+.header-right a:hover{
+    transition: 1s;
+    color: white;
+    
+    
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    top:5%;
+    padding: 14px 15px;
+    text-align: center;
+    
+}
+.header-right{
+    float: right;
+    position: sticky;
+    top:5%;
+    right: 10%;
+    text-align: center;
+}
+#myVideo {
+    position: fixed;
+   bottom: 0;
+   right: 0;
+   
+   max-width: 50%;
+   max-height: 500%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
